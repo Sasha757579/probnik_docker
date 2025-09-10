@@ -1,0 +1,16 @@
+# .gitignore for Docker
+**/.dockerignore
+**/Dockerfile*
+**/docker-compose*.yml
+
+# Docker volumes
+**/volumes/*
+!**/.gitkeep
+
+# Docker logs
+**/logs/*
+!**/.gitkeep
+
+# Ignore node_modules, vendor etc.
+node_modules/
+vendor/
